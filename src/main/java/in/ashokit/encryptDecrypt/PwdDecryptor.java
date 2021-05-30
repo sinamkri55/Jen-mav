@@ -9,6 +9,7 @@ public class PwdDecryptor {
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodedPwd);
 		return new String(decode);
+		
 	}
 
 }
